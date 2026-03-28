@@ -1,0 +1,10 @@
+{
+  "name": "ml-automation-ab-testing",
+  "version": "0.1.0",
+  "description": "A/B testing and causal inference extension for ml-automation. Experiment design, power analysis, Bayesian A/B testing, frequentist testing, and causal impact estimation.",
+  "author": { "name": "Maximo Lorenzo y Losada" },
+  "repository": "https://github.com/Maxilylm/ml-automation-ab-testing",
+  "license": "MIT",
+  "keywords": ["ab-testing", "experiment-design", "power-analysis", "bayesian", "causal-inference", "hypothesis-testing", "ml-automation-extension"],
+  "dependencies": ["ml-automation-core"]
+}
