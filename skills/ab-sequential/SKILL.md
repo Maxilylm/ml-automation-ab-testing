@@ -2,7 +2,7 @@
 name: ab-sequential
 description: "Sequential testing with alpha spending functions and optional stopping rules for A/B experiments."
 aliases: [sequential test, optional stopping, group sequential, early stopping]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

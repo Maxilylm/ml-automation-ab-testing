@@ -2,7 +2,7 @@
 name: ab-design
 description: "Design A/B test experiments with power analysis, sample size calculation, duration estimation, and randomization strategy."
 aliases: [experiment design, power analysis, sample size, test design]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

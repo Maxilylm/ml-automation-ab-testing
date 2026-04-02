@@ -1,7 +1,7 @@
 """
-A/B testing and causal inference utilities for the ml-automation-ab-testing extension plugin.
+A/B testing and causal inference utilities for the spark-ab-testing extension plugin.
 
-Designed to work alongside ml_utils.py from the ml-automation core plugin
+Designed to work alongside ml_utils.py from the spark core plugin
 (copied into user projects via Stage 0 of A/B testing commands).
 """
 

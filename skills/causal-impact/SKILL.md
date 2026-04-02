@@ -2,7 +2,7 @@
 name: causal-impact
 description: "Estimate causal impact using difference-in-differences, synthetic control, propensity score matching, or instrumental variables."
 aliases: [causal inference, did, synthetic control, propensity score, causal effect]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

@@ -2,7 +2,7 @@
 name: ab-analyze
 description: "Analyze A/B test results with frequentist hypothesis testing, Bayesian posterior analysis, segmentation, and multiple comparison correction."
 aliases: [ab test results, experiment analysis, ab testing, test results]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

@@ -4,7 +4,7 @@ description: "Design experiments: power analysis, sample size calculation, rando
 model: sonnet
 color: "#EC4899"
 tools: [Read, Write, Bash(*), Glob, Grep]
-extends: ml-automation
+extends: spark
 routing_keywords: [experiment design, power analysis, sample size, randomization, stratification, control group, treatment group, test design]
 hooks_into:
   - after-eda

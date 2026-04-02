@@ -2,7 +2,7 @@
 name: ab-bayesian
 description: "Bayesian A/B testing with posterior distributions, ROPE analysis, expected loss, and decision rules for shipping or continuing experiments."
 aliases: [bayesian ab, bayesian test, posterior analysis, bayesian experiment]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

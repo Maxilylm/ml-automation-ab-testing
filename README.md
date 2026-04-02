@@ -1,4 +1,4 @@
-# ml-automation-ab-testing
+# spark-ab-testing
 
 A/B testing and causal inference extension for [ml-automation](https://github.com/Maxilylm/ml-automation-core).
 
@@ -11,7 +11,7 @@ A/B testing and causal inference extension for [ml-automation](https://github.co
 ## Installation
 
 ```bash
-claude plugin add /path/to/ml-automation-ab-testing
+claude plugin add /path/to/spark-ab-testing
 ```
 
 ## What's Included

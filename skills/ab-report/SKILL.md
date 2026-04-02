@@ -2,7 +2,7 @@
 name: ab-report
 description: "Generate comprehensive experiment reports with executive summary, visualizations, and ship/kill/iterate recommendations."
 aliases: [experiment report, ab report, test report, experiment summary]
-extends: ml-automation
+extends: spark
 user_invocable: true
 ---
 

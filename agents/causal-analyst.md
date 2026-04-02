@@ -4,7 +4,7 @@ description: "Causal inference: difference-in-differences, synthetic control, pr
 model: sonnet
 color: "#BE185D"
 tools: [Read, Write, Bash(*), Glob, Grep]
-extends: ml-automation
+extends: spark
 routing_keywords: [causal inference, causal impact, difference in differences, synthetic control, propensity score, counterfactual, causal effect]
 ---
 
