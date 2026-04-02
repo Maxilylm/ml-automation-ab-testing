@@ -1,18 +1,13 @@
 """
 A/B testing and causal inference utilities for the ml-automation-ab-testing extension plugin.
 
-Requires ml_utils.py from the ml-automation core plugin to be present
-in the same directory (copied via Stage 0 of A/B testing commands).
+Designed to work alongside ml_utils.py from the ml-automation core plugin
+(copied into user projects via Stage 0 of A/B testing commands).
 """
 
-import os
-import json
 import math
 import random
 from pathlib import Path
-from typing import List, Dict, Optional, Tuple, Any
-
-from ml_utils import save_agent_report, load_agent_report
 
 
 # --- Relevance Detection ---
