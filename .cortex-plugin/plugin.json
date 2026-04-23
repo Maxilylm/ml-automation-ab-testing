@@ -1,0 +1,27 @@
+{
+  "name": "spark-ab-testing",
+  "version": "0.2.0",
+  "description": "A/B testing and causal inference extension for spark. Experiment design, power analysis, Bayesian A/B testing, frequentist testing, and causal impact estimation.",
+  "author": {
+    "name": "Maximo Lorenzo y Losada"
+  },
+  "repository": "https://github.com/Maxilylm/ml-automation-ab-testing",
+  "license": "MIT",
+  "keywords": [
+    "ab-testing",
+    "experiment-design",
+    "power-analysis",
+    "bayesian",
+    "causal-inference",
+    "hypothesis-testing",
+    "spark-extension",
+    "cortex-code"
+  ],
+  "dependencies": ["spark-core"],
+  "cortex": {
+    "agents_dir": "agents",
+    "skills_dir": "skills",
+    "commands_dir": "commands",
+    "hooks_dir": "hooks"
+  }
+}
