@@ -18,11 +18,11 @@ claude plugin add /path/to/spark-ab-testing
 
 ### Agents
 
-| Agent | Purpose | Hooks Into |
-|---|---|---|
-| `experiment-designer` | Power analysis, sample size, randomization, stratification | `after-eda` |
-| `ab-analyst` | Frequentist + Bayesian A/B testing, segmentation, multiple comparisons | `after-evaluation` |
-| `causal-analyst` | DiD, synthetic control, propensity score matching, instrumental variables | *(direct invocation)* |
+| Agent | Purpose |
+|---|---|
+| `experiment-designer` | Power analysis, sample size, randomization, stratification |
+| `ab-analyst` | Frequentist + Bayesian A/B testing, segmentation, multiple comparisons |
+| `causal-analyst` | DiD, synthetic control, propensity score matching, instrumental variables |
 
 ### Commands
 

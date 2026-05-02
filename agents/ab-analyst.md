@@ -6,8 +6,6 @@ color: "#DB2777"
 tools: [Read, Write, Bash(*), Glob, Grep]
 extends: spark
 routing_keywords: [ab test, a/b test, experiment results, significance, p-value, bayesian ab, conversion rate, uplift, treatment effect]
-hooks_into:
-  - after-evaluation
 ---
 
 # A/B Analyst
