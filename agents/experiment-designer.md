@@ -6,8 +6,6 @@ color: "#EC4899"
 tools: [Read, Write, Bash(*), Glob, Grep]
 extends: spark
 routing_keywords: [experiment design, power analysis, sample size, randomization, stratification, control group, treatment group, test design]
-hooks_into:
-  - after-eda
 ---
 
 # Experiment Designer
